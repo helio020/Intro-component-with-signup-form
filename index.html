@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <main class="container">
+    <div class="first-content">
+      <div class="title">
+        <h1>
+          Learn to code by watching others
+        </h1>
+      </div>
+      <div class="paragraph">
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.
+        </p>
+      </div>
+    </div>
+    <div class="second-content">
+      <div class="box">
+        <div class="text">
+          <span>Try it free 7 days</span> then $20/mo. thereafter
+        </div>
+      </div>
+      <div class="card">
+        <form>
+          <input type="text" name="first-name" id="first-name" placeholder="First Name">
+          <span id="error1">First Name cannot be empty</span>
+
+          <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+          <span id="error2">Last Name cannot be empty</span>
+
+          <input type="email" name="email" id="email" placeholder="Email Address">
+          <span id="error3">Looks like this is not an email</span>
+
+          <input type="password" name="password" id="password" placeholder="Password">
+          <span id="error4">Password cannot be empty</span>
+
+          <button type="submit" id="btn">Claim your free trial </button>
+        </form>
+        <div class="terms">
+            By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+        </div>
+      </div> 
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
